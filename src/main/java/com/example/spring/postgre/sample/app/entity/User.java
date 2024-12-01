@@ -4,6 +4,9 @@ package com.example.spring.postgre.sample.app.entity;
 import jakarta.persistence.*;
 
 @Entity
+@Table(
+        name = "users"
+)
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
