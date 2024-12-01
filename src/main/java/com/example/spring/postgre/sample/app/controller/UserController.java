@@ -5,7 +5,7 @@ import com.example.spring.postgre.sample.app.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-@RequestMapping("/users")
+@RequestMapping("/user")
 @RestController
 public class UserController {
 
